@@ -175,7 +175,7 @@ def setup_handlers(application):
 
 
 def main():
-    application = ApplicationBuilder().token("YOUR_TOKEN").build()
+    application = ApplicationBuilder().token("7784104353:AAFejazyv74OqVjis3Fr3C9Km1pAUWIZg90").build()
     setup_handlers(application)
     application.run_polling()
 
